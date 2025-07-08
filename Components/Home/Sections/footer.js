@@ -6,12 +6,22 @@ export default function Footer() {
   return (
     <footer className="w-full flex flex-col px-35">
       <div className="flex justify-between mt-10">
-        <h2 className="text-2xl font-semibold">Audiofy</h2>
+        <h2 className="text-2xl font-semibold text-white hover:text-[#d87c49] cursor-pointer">
+          Audiofy
+        </h2>
         <ul className="flex gap-5 uppercase font-semibold text-[0.9rem]">
-          <li>home</li>
-          <li>headphones</li>
-          <li>speakers</li>
-          <li>earphones</li>
+          <li className="text-white hover:text-[#d87c49] cursor-pointer">
+            home
+          </li>
+          <li className="text-white hover:text-[#d87c49] cursor-pointer">
+            headphones
+          </li>
+          <li className="text-white hover:text-[#d87c49] cursor-pointer">
+            speakers
+          </li>
+          <li className="text-white hover:text-[#d87c49] cursor-pointer">
+            earphones
+          </li>
         </ul>
       </div>
       <div className="flex w-screen justify-around ">
@@ -27,9 +37,15 @@ export default function Footer() {
           </p>
         </div>
         <div className="flex p-10 text-2xl pr-[21.7%] gap-3">
-          <FaFacebookSquare />
-          <BsTwitterX />
-          <FaInstagram />
+          <a href="http://" target="_blank">
+            <FaFacebookSquare className="text-white hover:text-[#d87c49] cursor-pointer" />
+          </a>
+          <a href="http://" target="_blank">
+            <BsTwitterX className="text-white hover:text-[#d87c49] cursor-pointer" />
+          </a>
+          <a href="http://" target="_blank">
+            <FaInstagram className="text-white hover:text-[#d87c49] cursor-pointer" />
+          </a>{" "}
         </div>
       </div>
     </footer>

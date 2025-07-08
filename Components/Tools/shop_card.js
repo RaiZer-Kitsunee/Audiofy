@@ -14,8 +14,8 @@ export default function ShopCard({ text, url, width }) {
         <p className="text-black font-semibold text-sm tracking-wide uppercase">
           {text}
         </p>
-        <p className="text-gray-500 font-bold text-[0.7rem] text-center">
-          SHOP <span className="text-orange-400 ml-2">{">"}</span>
+        <p className="text-gray-500 font-bold text-[0.7rem] text-center hover:text-gray-900 cursor-pointer">
+          SHOP <span className="text-orange-400 ml-1">{">"}</span>
         </p>
       </div>
     </div>

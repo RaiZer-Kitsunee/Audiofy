@@ -8,8 +8,8 @@ export default function EarphonePart() {
         <Image
           className="absolute top-[-30px] rounded-md"
           src={"/download.jpg"}
-          layout="fill"
-          objectFit="cover"
+          fill
+          style={{ objectFit: "cover" }}
           alt="two earphones"
         />
       </div>
